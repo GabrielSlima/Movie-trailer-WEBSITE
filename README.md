@@ -60,7 +60,8 @@ Network connection.
                             'https://www.youtube.com/watch?v=zSWdZVtXT7E')                            
     ```
 1.  Run the centro_de_informacoes.py is file
-    * VERIFY IN THE FILE'S PROPERTIES IF THE SCRIPT ARE CONFIGURED TO OPEN WITH PYTHON, IF NOT, MODIFY IT
+    **VERIFY IN THE FILE'S PROPERTIES IF THE SCRIPT ARE CONFIGURED TO OPEN WITH PYTHON, IF NOT, MODIFY IT**
     1.  Double click in the centro_de_informacoes.py is file
 1.  A new file called "filmes.html" will be created, open it and apreciate
+
 > REMEMBER, YOU NEED INTERNET CONNECTION TO SEE IMAGES AND TRAILERS OF THE MOVIES STORED 
