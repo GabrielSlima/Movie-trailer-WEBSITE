@@ -15,7 +15,7 @@ Network connection.
 ## INSTALL
 ### ON LINUX 
 1.  Open your terminal;
-1.  Clone this repository (or download it in the **GREEN BUTTON** above button )  
+1.  Clone this repository (or download it in the **GREEN BUTTON** above)  
     ``` 
     git clone https://github.com/HiroTatsuo/Movie-trailer-WEBSITE.git    
     ```
@@ -26,8 +26,8 @@ Network connection.
     [name of your movie] = filmes.Filme({title}, {poster URL}, {Youtube trailer URL})
     ```
     ###### EXAMPLE
-    > interstellar = filmes.Filme('Interstellar',
-                            'https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg',
+    > interstellar = filmes.Filme("Interstellar",
+                            "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg",
                             'https://www.youtube.com/watch?v=zSWdZVtXT7E')
     
 1.  Run the centro_de_informacoes.py is file
