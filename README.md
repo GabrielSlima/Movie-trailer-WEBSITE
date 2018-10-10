@@ -20,10 +20,16 @@ Network connection.
     git clone https://github.com/HiroTatsuo/Movie-trailer-WEBSITE.git    
     ```
 1.  Store your movie
-    1. Open the centro_de_informacoes.py is file
+    1.  Open the centro_de_informacoes.py is file with your prefred text editor
+    1.  Store your movie in there
     ```
     [name of your movie] = filmes.Filme({title}, {poster URL}, {Youtube trailer URL})
     ```
+    ###### EXAMPLE
+    > interstellar = filmes.Filme('Interstellar',
+                            'https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg',
+                            'https://www.youtube.com/watch?v=zSWdZVtXT7E')
+    
 1.  Run the centro_de_informacoes.py is file
     ```
     python3 centro_de_informacoes.py
