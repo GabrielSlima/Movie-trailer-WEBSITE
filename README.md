@@ -4,6 +4,7 @@ The information that you'll need to provide are: Title of the movie, url of the 
 
 ## INSTALL
 ### Requirements to run the Scripts 
+
 First thing first, you'll need to have Python 3 installed in your computer.
 
 ## Requirements to see the website
