@@ -39,11 +39,28 @@ Network connection.
     python3 centro_de_informacoes.py
     
 1.  A new file called "filmes.html" will be created, open it and apreciate
-> REMEMBER, YOU NEED INTERNET CONNECTION TO SEE IMAGES AND TRAILERS OF THE MOVIES STORED 
+
 
 ### ON WINDOWS
 1.  Open your Git Bash if you want to clone this repository (or download it through the **GREEN BUTTON** above, If you do, you can ignore this part)
     1.  Clone this repository
+     ```
+     git clone https://github.com/HiroTatsuo/Movie-trailer-WEBSITE.git 
+     ```
+1.  Store your movie
+    1.  Open the centro_de_informacoes.py is file with your prefred text editor
+    1.  Store your movie in there
     ```
-    git clone https://github.com/HiroTatsuo/Movie-trailer-WEBSITE.git 
+    name of your movie = filmes.Filme({title}, {poster URL}, {Youtube trailer URL})
     ```
+    ###### EXAMPLE
+    ```
+    interstellar = filmes.Filme('Interstellar',
+                            'https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg',
+                            'https://www.youtube.com/watch?v=zSWdZVtXT7E')                            
+    ```
+1.  Run the centro_de_informacoes.py is file
+    * VERIFY IN THE FILE'S PROPERTIES IF THE SCRIPT ARE CONFIGURED TO OPEN WITH PYTHON, IF NOT, MODIFY IT
+    1.  Double click in the centro_de_informacoes.py is file
+1.  A new file called "filmes.html" will be created, open it and apreciate
+> REMEMBER, YOU NEED INTERNET CONNECTION TO SEE IMAGES AND TRAILERS OF THE MOVIES STORED 
