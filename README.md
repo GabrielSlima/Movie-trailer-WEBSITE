@@ -1,6 +1,6 @@
 # MOVIE TRAILER WEBSITE
-This repository contains Scripts that was created in Python to generate a WebSite with the iformation that was provided in one of the Scripts.\n
-he information that you'll need to provide are: Title of the movie, URL of the poster and Youtube trailer URL . All that information will be redenred as a Web page.
+This repository contains Scripts that was created in Python to generate a WebSite with the iformation that was provided in one of the Scripts.
+The information that you'll need to provide are: Title of the movie, URL of the poster and Youtube trailer URL . All that information will be redenred as a Web page.
 
 ## INSTALL
 ### Requirements to run the Scripts 
