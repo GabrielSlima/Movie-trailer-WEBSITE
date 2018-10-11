@@ -1,7 +1,7 @@
 # HOW TO CONTRIBUTE 
 ## FOR WINDOWS OR LINUX
 1.  Fork this repository
-1.  Clone this repository
+1.  Clone this repository (or download it, if you do, you can ignore that step)
   ```
   git clone https://github.com/HiroTatsuo/Movie-trailer-WEBSITE.git
   ```
