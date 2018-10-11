@@ -69,6 +69,9 @@ First thing first, you'll need to have:
 1.  A new file called "filmes.html" will be created, open it and apreciate
 
 > REMEMBER, YOU NEED INTERNET CONNECTION TO SEE IMAGES AND TRAILERS OF THE MOVIES STORED
+
+# CHECKING THE RESULTS 
+When you open your filmes.html Website the reults must be something like this: {URL}
 ## HOW TO CONTRIBUTE 
 You can find more instructions, if you're a beginner of **how to contriute** in this file: https://github.com/HiroTatsuo/Movie-trailer-WEBSITE/blob/master/CONTRIBUTING.md
 
