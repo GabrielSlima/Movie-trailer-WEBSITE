@@ -2,7 +2,7 @@ import re,os, webbrowser
 header = ''' <!doctype html>
 <html>
     <head>
-        <title>MY FAVORITES MOVIES AND TV SHOWS</title>
+        <title>MY FAVORITE MOVIES AND TV SHOWS</title>
         <meta charset="utf-8">
         <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.js'></script>
         <script>
@@ -139,7 +139,7 @@ header = ''' <!doctype html>
 '''
     
 conteudo_principal = ''' <body>
-        <div id="menu"><span class="navbar-brand">MY FAVORITES MOVIES AND TV SHOWS</span></div>
+        <div id="menu"><span class="navbar-brand">MY FAVORITE MOVIES AND TV SHOWS</span></div>
         <div id="content">
             
             <div id="conteudo">{links_filmes}</div>
