@@ -72,7 +72,7 @@ First thing first, you'll need to have:
 ## HOW TO CONTRIBUTE 
 You can find more instructions, if you're a beginner of **how to contriute** in this file: https://github.com/HiroTatsuo/Movie-trailer-WEBSITE/blob/master/CONTRIBUTING.md
 
-If you wanna something more details you can see this tutorial on YouTube: https://www.youtube.com/watch?v=MnCfVxSw3ak
+If you wanna something more detailed you can see this tutorial on YouTube: https://www.youtube.com/watch?v=MnCfVxSw3ak
 
 ## LICENSE
 
