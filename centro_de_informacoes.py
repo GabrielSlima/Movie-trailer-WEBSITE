@@ -1,4 +1,4 @@
-import filmes, tomatoes_gabriel
+import filmes, tomatoes_gabriel, sys
 
 #TODOS OS NOSSO OBJETOS/FILMES -- ESTRUTURA: TITULO, ENDERECO DO POSTER, LINK DO TRAILER NO YOUTUBE
 got = filmes.Filme('Game of Thrones', 
@@ -29,5 +29,16 @@ snowden = filmes.Filme('Snowden',
                        'https://www.gstatic.com/tv/thumb/v22vodart/11823926/p11823926_v_v8_an.jpg',
                        'https://www.youtube.com/watch?v=QlSAiI3xMh4')
 
-todos_filmes = [got,mr_robot, interstellar, the_imitation_game,minha_mae_peca,my_wife_and_kids]
-tomatoes_gabriel.abrir_pagina_filmes(todos_filmes)
+todos_filmes = [got,mr_robot, interstellar, the_imitation_game,minha_mae_peca,my_wife_and_kids, snowden]
+
+# VERIFICAÇÃO DOS ATRIBUTOS DOS FILMES 
+for filme in todos_filmes:
+    if filme.titulo == '' or filme.endereco_poster == '' or filme.endereco_trailer == '': # SE QUALQUER ATRIBUTO FOR VAZIO
+        print('Alguma informação não está correta, por favor, cheque o Script de centro de informações.')
+        sys.exit()  # ENCERRA A EXECUÇÃO DO SCRIPT
+
+# TRATANDO ERROS DE ATRIBUTO
+try:
+    tomatoes_gabriel.abrir_pagina_filmes(todos_filmes)
+except AttributeError:
+    print('Talvez você tenha se confundido e informado uma foto ao invés de um endereço do YouTube, por favor, cheque o Script de centro de informações.')

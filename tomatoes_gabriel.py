@@ -90,8 +90,8 @@ header = ''' <!doctype html>
     #conteudo img
     {   
         border-radius: 50%;                   /*FORMATO DE CIRFUNFERENCIA*/
-        width:300px;
-        height:300px;
+        width:200px;
+        height:200px;
         opacity: 0.9;                         /*OPACIDADE INICIAL*/
         
     }
@@ -173,7 +173,7 @@ links_filmes = '''<a style="text-decoration:none; color:white; " class="tocar_tr
 def criar_links_filmes(filmes):
     novo_conteudo= ''
     for filme in filmes:
-        youtube_id = re.search(r'(?<=v=)[\w]*',filme.endereco_trailer)      #CAPTURAR O ID DO VIDEO APARTIR DE UMA URL
+        youtube_id = re.search(r'(?<=v=)[\w]*',filme.endereco_trailer)      #CAPTURAR O ID DO VIDEO A PARTIR DE UMA URL INFORMADA
         novo_conteudo+= links_filmes.format(id_trailer=youtube_id.group(0), #GUARDAR O NOVO FILME E SEUS DADOS INCLUINDO O ID DO TRAILER
         poster_filme=filme.endereco_poster, titulo_filme=filme.titulo)      
     return novo_conteudo                                                    #RETORNO DO CONTEUDO ATUALIZADO 
