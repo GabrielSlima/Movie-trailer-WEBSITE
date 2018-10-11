@@ -71,7 +71,7 @@ First thing first, you'll need to have:
 > REMEMBER, YOU NEED INTERNET CONNECTION TO SEE IMAGES AND TRAILERS OF THE MOVIES STORED
 
 # CHECKING THE RESULTS 
-When you open your filmes.html Website the reults must be something like this: {URL}
+When you open your filmes.html Website the reults must be something like this: https://hirotatsuo.github.io/Movie-trailer-WEBSITE/
 ## HOW TO CONTRIBUTE 
 You can find more instructions, if you're a beginner of **how to contriute** in this file: https://github.com/HiroTatsuo/Movie-trailer-WEBSITE/blob/master/CONTRIBUTING.md
 
