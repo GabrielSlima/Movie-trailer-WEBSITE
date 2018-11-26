@@ -3,7 +3,7 @@
 1.  Fork this repository
 1.  Clone this repository (or download it, if you do, you can ignore that step)
     ```
-    git clone https://github.com/HiroTatsuo/Movie-trailer-WEBSITE.git
+    git clone https://github.com/GabrielSlima/Movie-trailer-WEBSITE.git
     ```
 1.  Make the necessary changes 
 1.  Add all files to the staging area 
