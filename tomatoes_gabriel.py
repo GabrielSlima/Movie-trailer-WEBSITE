@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import re,os, webbrowser
 header = ''' <!doctype html>
 <html>
