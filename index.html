@@ -3,7 +3,8 @@
     <head>
         <title>MY FAVORITE MOVIES AND TV SHOWS</title>
         <meta charset="utf-8">
-        <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.js'></script>
+        <!--<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.js'></script>-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script>
 
             //CRIANDO UM NOVO ELEMENTO UTILIZANDO JQUERY
@@ -21,7 +22,7 @@
                         frameborder:'0',
                         width: '100%',
                         height:'500px',
-                        src: 'http://www.youtube.com/embed/'+ youtube_id +'?autoplay=1&html5=1'  //O LINK RECEBERA O VALOR RECOLHIDO ANTERIORMENTE  
+                        src: 'https://www.youtube.com/embed/'+ youtube_id +'?autoplay=1&html5=1'  //O LINK RECEBERA O VALOR RECOLHIDO ANTERIORMENTE  
                     }).appendTo('.modal-body');                                 //ADICIONANDO O NOVO ELEMENTO NO DOCUMENTO HTML
                 });              
             });

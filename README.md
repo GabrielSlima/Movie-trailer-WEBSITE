@@ -23,7 +23,7 @@ First thing first, you'll need to have:
 1.  Open your terminal
 1.  Clone this repository (or download it in the GREEN BUTTON above, If you do, you can ignore this part)
     ```    
-    git clone https://github.com/HiroTatsuo/Movie-trailer-WEBSITE.git    
+    git clone https://github.com/GabrielSlima/Movie-trailer-WEBSITE.git    
     ```
 1.  Store your movie
     1.  Open the centro_de_informacoes.py is file with your prefred text editor
@@ -49,7 +49,7 @@ First thing first, you'll need to have:
 
 1.  Clone this repository
     ```
-    git clone https://github.com/HiroTatsuo/Movie-trailer-WEBSITE.git 
+    git clone https://github.com/GabrielSlima/Movie-trailer-WEBSITE.git 
     ```
 1.  Store your movie
     1.  Open the centro_de_informacoes.py is file with your prefred text editor
@@ -70,10 +70,11 @@ First thing first, you'll need to have:
 
 > REMEMBER, YOU NEED INTERNET CONNECTION TO SEE IMAGES AND TRAILERS OF THE MOVIES STORED
 
-# CHECKING THE RESULTS 
-When you open your filmes.html Website the reults must be something like this: {URL}
+## CHECKING THE RESULTS 
+When you open your filmes.html Website the reults must be something like this: https://gabrielslima.github.io/Movie-trailer-WEBSITE/
+
 ## HOW TO CONTRIBUTE 
-You can find more instructions, if you're a beginner of **how to contriute** in this file: https://github.com/HiroTatsuo/Movie-trailer-WEBSITE/blob/master/CONTRIBUTING.md
+You can find more instructions, if you're a beginner, of **how to contriute** in this project: https://github.com/GabrielSlima/Movie-trailer-WEBSITE/blob/master/CONTRIBUTING.md
 
 If you wanna something more detailed you can see this tutorial on YouTube: https://www.youtube.com/watch?v=MnCfVxSw3ak
 

@@ -80,4 +80,3 @@ except AttributeError:
         'ao invés de um endereço do YouTube, por favor, cheque o'
         'Script de centro de informações.'
     )
-
